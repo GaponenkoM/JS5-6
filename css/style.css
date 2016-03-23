@@ -1,13 +1,16 @@
 body{
+	position: absolute;
 	width: 100%;
-	background: url("../img/base.jpg") no-repeat;
+	background: url("../img/base.jpg") top center no-repeat;
 }	
 
 .wrapper{
+	position: absolute;
+	top: 105px;
+	right: 130px;
+	float: right;
 	height: 400px;
 	width: 800px;
-	margin-left: 1000px;
-	margin-top: 110px;
 	background-color: rgba(0, 0, 0, 0.2);
 	border:  1px solid rgba(0, 0, 0, 0.2);
 	border-radius: 10px;
